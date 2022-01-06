@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: rgb(206, 104, 104);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+}
+.nav {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+nav ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(241, 237, 237);
+  font-family: "Roboto", sans-serif;
+}
+nav ul {
+  list-style: none;
+}
+.header {
+  background: url(./images/zoe-BVoTTLwXvMQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.banner {
+  background: #000;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
+  grid-gap: 35px;
+  padding: 20px;
+}
+.item-1 {
+  background: rgb(0, 204, 255);
+}
+.item-2 {
+  background: rgb(0, 255, 119);
+}
+
+.grid-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 20px;
+  min-height: 250px;
+}
+
+.header-one {
+  display: block;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-left: 40px;
+}
+.header-two {
+  display: block;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+.header-main {
+  transform: translate(50%, 50%);
+  width: 50%;
+  height: 80%;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 10%;
+  padding: 15px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.text {
+  margin: 20px;
+  padding: 10px;
+}
+.linked-in:link,
+.linked-in:visited {
+  text-decoration: none;
+  color: rgb(85, 165, 240);
+}
